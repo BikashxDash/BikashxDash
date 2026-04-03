@@ -25,8 +25,7 @@
 
 ## 📈 GitHub Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BikashxDash&layout=compact&theme=tokyonight)
----
+![GitHub Streak](https://streak-stats.demolab.com/?user=BikashxDash&theme=tokyonight)
 
 ## 🔗 Connect with Me
 
