@@ -30,7 +30,7 @@
 ## 🔗 Connect with Me
 
 * LinkedIn: https://www.linkedin.com/in/bikash-dash-844b70338
-* Portfolio: https://bikashdash.netlify.app
+* Portfolio: https://bikashdash.vercel.app
 
 ---
 
