@@ -18,7 +18,7 @@
 
 * 💻 Frontend: HTML, CSS, JavaScript, React, Next.js
 * ⚙️ Backend: Node.js, Express
-* 🗄️ Database: MongoDB
+* 🗄️ Database: SQL, PostgreSql 
 * 🧰 Tools: Git, GitHub, VS Code
 
 ---
@@ -29,7 +29,7 @@
 
 ## 🔗 Connect with Me
 
-* LinkedIn: https://www.linkedin.com/in/bikash-dash-844b70338
+* LinkedIn: https://www.linkedin.com/in/bikashxdash
 * Portfolio: https://bikashdash.vercel.app
 
 ---
