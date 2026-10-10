@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1072" height="567" viewBox="0 0 1072 567" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">
+  <style>
+    .k { fill:#4dd0e1; font-size:12.5px; font-weight:700; }
+    .v { fill:#e6edf3; font-size:12.5px; }
+    .d { stroke:#3b4a5a; stroke-width:1.2; stroke-dasharray:1 4; stroke-linecap:round; }
+    .sec { fill:#3ddc97; font-size:12.5px; font-weight:700; }
+    .lbl { fill:#4a90a4; font-size:10px; letter-spacing:2px; }
+    .title { fill:#6b7a8c; font-size:12px; }
+    .host { fill:#8b5cf6; font-size:14px; font-weight:700; }
+    .ascii { fill:#38bdf8; font-size:26px; font-weight:700; }
+    .note { fill:#4a90a4; font-size:11px; }
+    .r { opacity:0; animation: show .4s ease-out forwards; }
+    @keyframes show { from { opacity:0; transform:translateX(-6px);} to { opacity:1; transform:translateX(0);} }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform:translateY(60px);} to { transform:translateY(520px);} }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity:0; } }
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:.4; } 50% { opacity:1; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="scanline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4dd0e1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4dd0e1" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4dd0e1" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="win"><rect x="8" y="8" width="1056" height="551" rx="24"/></clipPath>
+  </defs>
+
+  <rect width="1072" height="567" fill="#05080f"/>
+  <rect x="8" y="8" width="1056" height="551" rx="24" fill="url(#bg)" stroke="#1f6f8b" stroke-width="2"/>
+
+  <!-- title bar -->
+  <circle cx="30" cy="34" r="6" fill="#ff5f56"/>
+  <circle cx="52" cy="34" r="6" fill="#ffbd2e"/>
+  <circle cx="74" cy="34" r="6" fill="#27c93f"/>
+  <text x="536" y="38" text-anchor="middle" class="title">bikash@devos ~ % ./profile.sh --live</text>
+  <text x="1030" y="38" text-anchor="end" fill="#ff6b6b" font-size="10" class="pulse">● LIVE</text>
+
+  <!-- left panel -->
+  <rect x="30" y="70" width="430" height="450" rx="12" fill="#0a1424" stroke="#1d4f63"/>
+  <text x="44" y="64" class="lbl">VISUAL.MAP</text>
+  <g xml:space="preserve" class="ascii">
+    <text x="95" y="230">&#160;____&#160;&#160;&#160;____&#160;</text>
+    <text x="95" y="264">| __ )|&#160;&#160;_ \</text>
+    <text x="95" y="298">|&#160;&#160;_ \| | | |</text>
+    <text x="95" y="332">| |_) | |_| |</text>
+    <text x="95" y="366">|____/|____/</text>
+  </g>
+  <text x="245" y="420" text-anchor="middle" class="note">// full-stack • always shipping</text>
+
+  <!-- right panel -->
+  <rect x="475" y="70" width="565" height="450" rx="12" fill="#0a1424" stroke="#1d4f63"/>
+  <text x="489" y="64" class="lbl">SYSTEM.INFO</text>
+  <text x="495" y="105" class="host">bikash@devos</text>
+  <line x1="600" x2="1020" y1="101" y2="101" stroke="#3b4a5a" stroke-width="1"/>
+
+  <g class="r" style="animation-delay:.2s"><text x="495" y="132" class="k">Subject:</text><line x1="615" x2="775" y1="128" y2="128" class="d"/><text x="785" y="132" class="v">Bikash Dash</text></g>
+  <g class="r" style="animation-delay:.4s"><text x="495" y="154" class="k">Role:</text><line x1="615" x2="775" y1="150" y2="150" class="d"/><text x="785" y="154" class="v">Full-Stack Developer</text></g>
+  <g class="r" style="animation-delay:.6s"><text x="495" y="176" class="k">Education:</text><line x1="615" x2="775" y1="172" y2="172" class="d"/><text x="785" y="176" class="v">B.Tech CSE · Final Year</text></g>
+  <g class="r" style="animation-delay:.8s"><text x="495" y="198" class="k">Status:</text><line x1="615" x2="775" y1="194" y2="194" class="d"/><text x="785" y="198" class="v">Building • Learning • Shipping</text></g>
+  <g class="r" style="animation-delay:1s"><text x="495" y="220" class="k">ToolChain:</text><line x1="615" x2="775" y1="216" y2="216" class="d"/><text x="785" y="220" class="v">VS Code, Git, GitHub</text></g>
+
+  <g class="r" style="animation-delay:1.3s"><text x="495" y="264" class="k">Core.Lang:</text><line x1="615" x2="775" y1="260" y2="260" class="d"/><text x="785" y="264" class="v">Java, JavaScript, SQL</text></g>
+  <g class="r" style="animation-delay:1.5s"><text x="495" y="286" class="k">Core.Frontend:</text><line x1="615" x2="775" y1="282" y2="282" class="d"/><text x="785" y="286" class="v">React, Next.js, HTML, CSS</text></g>
+  <g class="r" style="animation-delay:1.7s"><text x="495" y="308" class="k">Core.Backend:</text><line x1="615" x2="775" y1="304" y2="304" class="d"/><text x="785" y="308" class="v">Node.js, Express.js</text></g>
+  <g class="r" style="animation-delay:1.9s"><text x="495" y="330" class="k">Core.Database:</text><line x1="615" x2="775" y1="326" y2="326" class="d"/><text x="785" y="330" class="v">PostgreSQL, SQL</text></g>
+  <g class="r" style="animation-delay:2.1s"><text x="495" y="352" class="k">Interests:</text><line x1="615" x2="775" y1="348" y2="348" class="d"/><text x="785" y="352" class="v">System Design, Cyber Security</text></g>
+
+  <g class="r" style="animation-delay:2.4s"><text x="495" y="396" class="sec">— Contact</text><line x1="580" x2="1020" y1="392" y2="392" stroke="#3b4a5a"/></g>
+  <g class="r" style="animation-delay:2.6s"><text x="495" y="418" class="k">Grid.Portfolio:</text><line x1="640" x2="775" y1="414" y2="414" class="d"/><text x="785" y="418" class="v">bikashdash.vercel.app</text></g>
+  <g class="r" style="animation-delay:2.8s"><text x="495" y="440" class="k">Grid.LinkedIn:</text><line x1="640" x2="775" y1="436" y2="436" class="d"/><text x="785" y="440" class="v">in/bikashxdash</text></g>
+  <g class="r" style="animation-delay:3s"><text x="495" y="462" class="k">Grid.Github:</text><line x1="640" x2="775" y1="458" y2="458" class="d"/><text x="785" y="462" class="v">BikashxDash</text></g>
+
+  <g class="r" style="animation-delay:3.2s"><text x="495" y="490" class="sec">— Live Stats</text><line x1="595" x2="1020" y1="486" y2="486" stroke="#3b4a5a"/></g>
+  <g class="r" style="animation-delay:3.4s">
+    <rect x="495" y="498" width="9" height="15" fill="#4dd0e1" class="blink"/>
+    <text x="512" y="510" class="v">See live GitHub stats below in README ↓</text>
+  </g>
+
+  <!-- scanline -->
+  <g clip-path="url(#win)">
+    <rect class="scan" x="8" y="0" width="1056" height="14" fill="url(#scanline)"/>
+  </g>
+</svg>
